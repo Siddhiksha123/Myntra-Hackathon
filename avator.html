@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Avatar Page</title>
+    <link rel="stylesheet" href="avator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Custom Avatars</h1>
+        <div class="avatar-selection">
+            <img src="model_1.png" alt="Avatar1" class="avatar-option" onclick="selectAvatar('model_1.png')">
+            <img src="model_6.png" alt="Avatar1" class="avatar-option" onclick="selectAvatar('model_6.png')">
+            <img src="07966_00.jpg" alt="Avatar1" class="avatar-option" onclick="selectAvatar('07966_00.jpg')">
+            <img src="09597_00.jpg" alt="Avatar1" class="avatar-option" onclick="selectAvatar('09597_00.jpg')">
+        </div>
+        <h2>Selected Avatar</h2>
+    <div class="selected-avatar">
+        <img id="selected-image" src="model_1.png" alt="Selected Avatar">
+    </div>
+    </div>
+    <script>
+        function selectAvatar(avatarSrc) {
+            document.getElementById('selected-image').src = avatarSrc;
+        }
+    </script>
+</body>
+</html>

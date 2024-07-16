@@ -1,0 +1,144 @@
+/* styles.css */
+
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("background.jpeg"); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the image fixed when scrolling */
+  color: #333; /* Sets a default text color */
+}
+
+/* Header styles */
+header {
+  background-color: rgba(
+    51,
+    51,
+    51,
+    0.8
+  ); /* Semi-transparent background for the header */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+/* Main content area styles */
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 10px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slightly transparent white background */
+  border-radius: 8px; /* Rounded corners for the content area */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+/* Post styles */
+.post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* User info styles */
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Username styles */
+.username {
+  font-weight: bold;
+}
+
+/* Post image styles */
+.post-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Post actions styles */
+.post-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Button styles */
+.post-actions button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover styles */
+.post-actions button:hover {
+  background-color: #005f5f;
+}
+
+/* Likes styles */
+.likes {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Background image for the header */
+header {
+  background-image: url("header-background.jpeg"); /* Path to your header background image */
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: scroll; /* Scrolls with the page */
+  padding: 20px; /* Adds padding inside the header */
+  color: #fff; /* Sets text color */
+  text-align: center; /* Centers text */
+}
+
+/* Background image for the main content area */
+main {
+  background-image: url("main-background.jpeg"); /* Path to your main content background image */
+  background-size: cover; /* Ensures the image covers the entire content area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  padding: 20px; /* Adds padding inside the main content area */
+}
+
+/* Additional styles for post actions */
+.post-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between; /* Distributes space between buttons and likes span */
+}
+
+/* Adjustments for the likes span */
+.likes {
+  margin-left: auto; /* Pushes the likes span to the right */
+  color: #555;
+}

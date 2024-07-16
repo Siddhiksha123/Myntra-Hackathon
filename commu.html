@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Community</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fashion Community</h1>
+    </header>
+    <main>
+        <div class="post">
+            <div class="user-info">
+                <img class="avatar" src="avatar1.jpg" alt="User Avatar">
+                <span class="username">Riya</span>
+            </div>
+            <img class="post-image" src="model1.jpg" alt="Model 1" onclick="viewDetails('details1.html')">
+            <div class="post-actions">
+                <button onclick="likePost(event)">Like</button>
+                <span class="likes">0 Likes</span>
+            </div>
+        </div>
+        <div class="post">
+            <div class="user-info">
+                <img class="avatar" src="avatar2.jpg" alt="User Avatar">
+                <span class="username">Vicky</span>
+            </div>
+            <img class="post-image" src="model2.jpg" alt="Model 2" onclick="viewDetails('details2.html')">
+            <div class="post-actions">
+                <button onclick="likePost(event)">Like</button>
+                <span class="likes">0 Likes</span>
+            </div>
+        </div>
+        <div class="post">
+            <div class="user-info">
+                <img class="avatar" src="avatar2.jpg" alt="User Avatar">
+                <span class="username">Rahul</span>
+            </div>
+            <img class="post-image" src="model3.jpg" alt="Model 3" onclick="viewDetails('details3.html')">
+            <div class="post-actions">
+                <button onclick="likePost(event)">Like</button>
+                <span class="likes">0 Likes</span>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,100 @@
+/* Resetting default margin and padding for the body */
+body {
+  background-image: url("33.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for links */
+a {
+  text-align: center;
+  padding: 14px 16px;
+  height: 100%;
+  width: 100%;
+}
+
+/* Styling for images */
+img {
+  height: 20%;
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+  border: 2px solid #000;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for paragraphs */
+p {
+  color: #fff;
+  justify-content: flex-start;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ee555536;
+  padding: 10px 20px;
+}
+
+/* Styles for the container div */
+div {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative; /* Needed for absolute positioning of children */
+}
+
+/* WhatsApp icon style */
+.social-icons {
+  display: flex;
+  height: auto;
+  float: right;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 200px;
+}
+.social-icons img {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  height: auto;
+  float: right;
+  width: 50px;
+  margin-left: 10px;
+}
+/* Styling for the logo link in the navbar */
+.nav-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styling for the navigation links in the navbar */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for individual navigation items */
+.nav-links li {
+  margin-left: 20px;
+}
+
+/* Styling for navigation links */
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hover effect for navigation links */
+.nav-links a:hover {
+  color: #3d23d3;
+}
